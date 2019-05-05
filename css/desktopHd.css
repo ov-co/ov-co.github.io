@@ -1,0 +1,372 @@
+
+
+.desktophd {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 10000px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.desktophd .billboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5899px;
+  height              : 931px;
+  width               : 1099px;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .bymotivatingusers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6949px;
+  height              : 344px;
+  width               : 1082px;
+  position            : absolute;
+  margin              : 0;
+  left                : 259px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .juhani {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2944px;
+  height              : 344px;
+  width               : 1037px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .reframe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3332px;
+  height              : 629px;
+  width               : 1048px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .a3goals2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3980px;
+  height              : 590px;
+  width               : 962px;
+  position            : absolute;
+  margin              : 0;
+  left                : 259px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .modularjewelry {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4660px;
+  height              : 561px;
+  width               : 1086px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .bluetoothbracelet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5468px;
+  height              : 439px;
+  width               : 1100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .canwelocate {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1783px;
+  height              : 1090px;
+  width               : 1088px;
+  position            : absolute;
+  margin              : 0;
+  left                : 227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .deliashouldbeundercwl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2577px;
+  height              : 326px;
+  width               : 1091px;
+  position            : absolute;
+  margin              : 0;
+  left                : 172px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .secondfindings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1362px;
+  height              : 329px;
+  width               : 861px;
+  position            : absolute;
+  margin              : 0;
+  left                : 341px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .firstfindings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1036px;
+  height              : 294px;
+  width               : 639px;
+  position            : absolute;
+  margin              : 0;
+  left                : 551px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .canwearablesbeused {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 664px;
+  height              : 1171px;
+  width               : 1151px;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .canwearablesbeused .cwbu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1171px;
+  width               : 1151px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .canwearablesbeused .cwbu .cwbuheadoverlay {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 53.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .canwearablesbeused .cwbu .group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 13.41%;
+  width               : 64.38%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .canwearablesbeused .cwbu .group .cwbudropdrown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .canwearablesbeused .cwbu .group .cwbufirst {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .aysebio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : 411px;
+  width               : 511px;
+  position            : absolute;
+  margin              : 0;
+  left                : 718px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .photoofayse {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : 374px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 400px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .projectdetails {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : 269px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .a2018 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 51px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1086px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .topbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -18px;
+  height              : 152px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
