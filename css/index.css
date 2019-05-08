@@ -1,6 +1,10 @@
 
-
-.landingpage {
+@font-face {
+                          font-family: "ColorTube-Regular";
+                          src: url('../fonts/ColorTube-Regular.otf') format("opentype");
+                        }
+                        
+.index {
   width               : 100%;
   min-width           : 1440px;
   height              : 100vh;
@@ -27,256 +31,25 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter1 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay  : 1s;
-  animation-delay     : 1s;
-}
-@-webkit-keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.anima-animate-enter2 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay  : 1s;
-  animation-delay     : 1s;
-}
-@-webkit-keyframes anima-animate-enter2-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes anima-animate-enter2-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes anima-animate-enter2-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes anima-animate-enter2-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.anima-animate-enter3 {
-  opacity             : 0;
-  transform           : translate(-25px, 0);
-  display             : block;
-  -webkit-animation   : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay  : 0.5s;
-  animation-delay     : 0.5s;
-}
-@-webkit-keyframes anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes anima-animate-enter3-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
 .anima-animate-enter4 {
   opacity             : 0;
-  filter              : blur(10px);
+  transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter4-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter4-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter4-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter4-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
+  -webkit-animation   : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay  : 1s;
+  animation-delay     : 1s;
 }
 @-webkit-keyframes anima-animate-enter4-frames {
   0%
    
   {
   opacity: 0;
-  filter: blur(10px);
+  transform: translate(0, 25px);
     }
   
     
@@ -284,7 +57,7 @@ div {
    
   {
   opacity: 1;
-  filter: none;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter4-frames {
@@ -292,7 +65,7 @@ div {
    
   {
   opacity: 0;
-  filter: blur(10px);
+  transform: translate(0, 25px);
     }
   
     
@@ -300,7 +73,7 @@ div {
    
   {
   opacity: 1;
-  filter: none;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter4-frames {
@@ -308,7 +81,7 @@ div {
    
   {
   opacity: 0;
-  filter: blur(10px);
+  transform: translate(0, 25px);
     }
   
     
@@ -316,10 +89,193 @@ div {
    
   {
   opacity: 1;
-  filter: none;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter5 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter5-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter5-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter5-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter5-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay  : 1s;
+  animation-delay     : 1s;
+}
+@-webkit-keyframes anima-animate-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter6 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : anima-animate-enter6-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter6-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter6-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter6-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter7 {
+  opacity             : 0;
+  filter              : blur(10px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter7-frames {
   0%
    
   {
@@ -335,7 +291,55 @@ div {
   filter: none;
     }
 }
-.landingpage .bg {
+@-moz-keyframes anima-animate-enter7-frames {
+  0%
+   
+  {
+  opacity: 0;
+  filter: blur(10px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  filter: none;
+    }
+}
+@-o-keyframes anima-animate-enter7-frames {
+  0%
+   
+  {
+  opacity: 0;
+  filter: blur(10px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  filter: none;
+    }
+}
+@keyframes anima-animate-enter7-frames {
+  0%
+   
+  {
+  opacity: 0;
+  filter: blur(10px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  filter: none;
+    }
+}
+.index .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 42px;
   height              : 1755px;
@@ -347,7 +351,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .deconreconlink {
+.index .deconreconlink {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1014px;
   height              : 810px;
@@ -359,7 +363,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .deconreconlink .drbar {
+.index .deconreconlink .drbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20.49%;
   height              : 37.65%;
@@ -372,7 +376,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.landingpage .deconreconlink .deconreconlinkbottomframe {
+.index .deconreconlink .deconreconlinkbottomframe {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20.49%;
   height              : 34.94%;
@@ -384,7 +388,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .deconreconlink .deconreconlinkmidstaticimg {
+.index .deconreconlink .deconreconlinkmidstaticimg {
   background-color    : rgba(255,255,255,0.0);
   right               : 7.36%;
   top                 : 20.62%;
@@ -396,7 +400,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .deconreconlink .deconreconlinkmidoverlayimg {
+.index .deconreconlink .deconreconlinkmidoverlayimg {
   background-color    : rgba(255,255,255,0.0);
   right               : -1.67%;
   top                 : 0px;
@@ -409,7 +413,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.landingpage .deconreconlink .deconreconlinktopframe {
+.index .deconreconlink .deconreconlinktopframe {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20.49%;
   height              : 29.01%;
@@ -422,7 +426,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.landingpage .smartobjectslink {
+.index .smartobjectslink {
   background-color    : rgba(255,255,255,0.0);
   top                 : 808px;
   height              : 235px;
@@ -435,11 +439,11 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-out;
 }
-.landingpage .smartobjectslink:hover {
+.index .smartobjectslink:hover {
   transform           : translate(0, -30px) scale(1.015);
   box-shadow          : 0px 50px 30px -10px rgba(0,0,0,0.1);
 }
-.landingpage .me {
+.index .me {
   background-color    : rgba(255,255,255,0.0);
   top                 : 132px;
   height              : 512px;
@@ -451,7 +455,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .me .me1 {
+.index .me .me1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 512px;
@@ -463,7 +467,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .oomungbio {
+.index .oomungbio {
   background-color    : rgba(255,255,255,0.0);
   top                 : 187px;
   height              : 453px;
@@ -475,7 +479,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .topbar {
+.index .topbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : -18px;
   height              : 152px;
@@ -487,7 +491,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .topbar .topbarframe {
+.index .topbar .topbarframe {
   background-color    : rgba(0, 0, 0, 1.0);
   top                 : 18px;
   height              : 69px;
@@ -499,7 +503,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landingpage .topbar .businesscard {
+.index .topbar .businesscard {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 152px;
