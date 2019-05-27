@@ -679,14 +679,62 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .oomungbio {
+.index .oomungbio2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 187px;
   height              : 453px;
-  width               : 644px;
+  width               : 634px;
   position            : absolute;
   margin              : 0;
-  left                : 124px;
+  left                : 134px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .oomungbio2 .oomungbio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .oomungbio2 .oomungbio .biocaption {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : -0.44%;
+  height              : 94.48%;
+  width               : 70.66%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .oomungbio2 .oomungbio .captiontext {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 12.80%;
+  height              : 37.75%;
+  width               : 93.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .oomungbio2 .oomungbio .bioframe {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 20.35%;
+  top                 : 0px;
+  height              : 38.63%;
+  width               : 46.21%;
+  position            : absolute;
+  margin              : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
