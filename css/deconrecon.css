@@ -31,14 +31,91 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter4 {
+.anima-animate-enter3 {
   opacity             : 0;
   transform           : translate(0, -256px);
   display             : block;
-  -webkit-animation   : anima-animate-enter4-frames 0.800000011921s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter4-frames 0.800000011921s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter4-frames 0.800000011921s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter4-frames 0.800000011921s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter3-frames 0.800000011921s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter3-frames 0.800000011921s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter3-frames 0.800000011921s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter3-frames 0.800000011921s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -256px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -256px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -256px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -256px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter4 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : anima-animate-enter4-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter4-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter4-frames 0.699999988079s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter4-frames 0.699999988079s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
@@ -49,7 +126,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, -256px);
+  transform: translate(25px, 0);
     }
   
     
@@ -65,7 +142,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, -256px);
+  transform: translate(25px, 0);
     }
   
     
@@ -81,7 +158,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, -256px);
+  transform: translate(25px, 0);
     }
   
     
@@ -97,7 +174,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, -256px);
+  transform: translate(25px, 0);
     }
   
     
@@ -110,7 +187,7 @@ div {
 }
 .anima-animate-enter5 {
   opacity             : 0;
-  transform           : translate(25px, 0);
+  transform           : translate(0, 25px);
   display             : block;
   -webkit-animation   : anima-animate-enter5-frames 0.699999988079s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter5-frames 0.699999988079s ease-in-out 1 normal forwards;
@@ -126,7 +203,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -142,7 +219,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -158,7 +235,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -174,7 +251,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -264,23 +341,23 @@ div {
 }
 .anima-animate-enter7 {
   opacity             : 0;
-  transform           : translate(0, 25px);
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter7-frames 0.699999988079s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter7-frames 0.699999988079s ease-in-out 1 normal forwards;
   -o-animation        : anima-animate-enter7-frames 0.699999988079s ease-in-out 1 normal forwards;
   animation           : anima-animate-enter7-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay  : 0.5s;
-  animation-delay     : 0.5s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay  : 2s;
+  animation-delay     : 2s;
 }
 @-webkit-keyframes anima-animate-enter7-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -296,7 +373,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -312,7 +389,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -328,7 +405,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -347,10 +424,10 @@ div {
   -moz-animation      : anima-animate-enter8-frames 0.699999988079s ease-in-out 1 normal forwards;
   -o-animation        : anima-animate-enter8-frames 0.699999988079s ease-in-out 1 normal forwards;
   animation           : anima-animate-enter8-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay  : 2s;
-  animation-delay     : 2s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay  : 1.5s;
+  animation-delay     : 1.5s;
 }
 @-webkit-keyframes anima-animate-enter8-frames {
   0%
@@ -420,14 +497,14 @@ div {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter9-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter9-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter9-frames 0.699999988079s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter9-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-  -o-animation-delay  : 1.5s;
-  animation-delay     : 1.5s;
+  -webkit-animation   : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
 }
 @-webkit-keyframes anima-animate-enter9-frames {
   0%
@@ -495,7 +572,7 @@ div {
 }
 .anima-animate-enter10 {
   opacity             : 0;
-  transform           : translate(-25px, 0);
+  transform           : translate(0, -25px);
   display             : block;
   -webkit-animation   : anima-animate-enter10-frames 1s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter10-frames 1s ease-in-out 1 normal forwards;
@@ -511,7 +588,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
+  transform: translate(0, -25px);
     }
   
     
@@ -527,7 +604,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
+  transform: translate(0, -25px);
     }
   
     
@@ -543,7 +620,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
+  transform: translate(0, -25px);
     }
   
     
@@ -555,83 +632,6 @@ div {
     }
 }
 @keyframes anima-animate-enter10-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.anima-animate-enter11 {
-  opacity             : 0;
-  transform           : translate(0, -25px);
-  display             : block;
-  -webkit-animation   : anima-animate-enter11-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter11-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter11-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter11-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay  : 0.5s;
-  animation-delay     : 0.5s;
-}
-@-webkit-keyframes anima-animate-enter11-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, -25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes anima-animate-enter11-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, -25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes anima-animate-enter11-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, -25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes anima-animate-enter11-frames {
   0%
    
   {
