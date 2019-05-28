@@ -31,20 +31,20 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter16 {
+.anima-animate-enter11 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter16-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter16-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter16-frames 0.699999988079s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter16-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay  : 2s;
   animation-delay     : 2s;
 }
-@-webkit-keyframes anima-animate-enter16-frames {
+@-webkit-keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -60,7 +60,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter16-frames {
+@-moz-keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -76,7 +76,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter16-frames {
+@-o-keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -92,7 +92,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter16-frames {
+@keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -108,20 +108,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter17 {
+.anima-animate-enter12 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter17-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter17-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter17-frames 0.699999988079s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter17-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter12-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter12-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter12-frames 0.699999988079s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter12-frames 0.699999988079s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay  : 2s;
   animation-delay     : 2s;
 }
-@-webkit-keyframes anima-animate-enter17-frames {
+@-webkit-keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -137,7 +137,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter17-frames {
+@-moz-keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -153,7 +153,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter17-frames {
+@-o-keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -169,7 +169,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter17-frames {
+@keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -185,20 +185,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter18 {
+.anima-animate-enter13 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter18-frames {
+@-webkit-keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -214,7 +214,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter18-frames {
+@-moz-keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -230,7 +230,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter18-frames {
+@-o-keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -246,7 +246,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter18-frames {
+@keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -262,20 +262,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter19 {
+.anima-animate-enter14 {
   opacity             : 0;
   transform           : translate(0, -25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter19-frames {
+@-webkit-keyframes anima-animate-enter14-frames {
   0%
    
   {
@@ -291,7 +291,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter19-frames {
+@-moz-keyframes anima-animate-enter14-frames {
   0%
    
   {
@@ -307,7 +307,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter19-frames {
+@-o-keyframes anima-animate-enter14-frames {
   0%
    
   {
@@ -323,7 +323,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter19-frames {
+@keyframes anima-animate-enter14-frames {
   0%
    
   {
