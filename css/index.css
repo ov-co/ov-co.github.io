@@ -3,6 +3,10 @@
                           font-family: "ColorTube-Regular";
                           src: url('../fonts/ColorTube-Regular.otf') format("opentype");
                         }
+                        @font-face {
+                          font-family: "Sequel100Wide-45Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
                         
 .index {
   width               : 100%;
@@ -31,20 +35,20 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter8 {
+.anima-animate-enter {
   opacity             : 0;
   transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay  : 1s;
   animation-delay     : 1s;
 }
-@-webkit-keyframes anima-animate-enter8-frames {
+@-webkit-keyframes anima-animate-enter-frames {
   0%
    
   {
@@ -60,7 +64,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter8-frames {
+@-moz-keyframes anima-animate-enter-frames {
   0%
    
   {
@@ -76,7 +80,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter8-frames {
+@-o-keyframes anima-animate-enter-frames {
   0%
    
   {
@@ -92,7 +96,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter8-frames {
+@keyframes anima-animate-enter-frames {
   0%
    
   {
@@ -108,20 +112,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter9 {
+.anima-animate-enter1 {
   opacity             : 0;
   transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay  : 1s;
   animation-delay     : 1s;
 }
-@-webkit-keyframes anima-animate-enter9-frames {
+@-webkit-keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -137,7 +141,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter9-frames {
+@-moz-keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -153,7 +157,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter9-frames {
+@-o-keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -169,7 +173,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter9-frames {
+@keyframes anima-animate-enter1-frames {
   0%
    
   {
@@ -185,20 +189,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter10 {
+.anima-animate-enter2 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter10-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter10-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter10-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter10-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter10-frames {
+@-webkit-keyframes anima-animate-enter2-frames {
   0%
    
   {
@@ -214,7 +218,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter10-frames {
+@-moz-keyframes anima-animate-enter2-frames {
   0%
    
   {
@@ -230,7 +234,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter10-frames {
+@-o-keyframes anima-animate-enter2-frames {
   0%
    
   {
@@ -246,7 +250,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter10-frames {
+@keyframes anima-animate-enter2-frames {
   0%
    
   {
@@ -642,6 +646,149 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.0;
+}
+.index .smobjlinkbgcopy {
+  background-color    : rgba(45, 45, 45, 1.0);
+  top                 : 1921px;
+  height              : 235px;
+  width               : 1119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .smobjlinkcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1852px;
+  height              : 421px;
+  width               : 1273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-out;
+}
+.index .smobjlinkcopy:hover {
+  transform           : translate(-20px, 0);
+}
+.index .smobjlinkcopy .smobjbotcontent {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 6.44%;
+  top                 : 16.39%;
+  height              : 55.82%;
+  width               : 85.31%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .smobjlinkcopy .smobjbotcontent .smobjcontent {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 7.02%;
+  height              : 85.96%;
+  width               : 56.81%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .smobjlinkcopy .smobjbotcontent .smobjimg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 34.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .smobjlinkcopy .smobjbotcontent .smobjimg .smobjimg1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .smobjlinkcopy .smobjmidreveal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 43.13%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.index .smobjlinkcopy .smobjmidreveal .smobjlinkbg2 {
+  background-color    : rgba(45, 45, 45, 1.0);
+  right               : 11.66%;
+  top                 : 16.39%;
+  height              : 55.82%;
+  width               : 69.22%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .smobjlinkcopy .smobjmidreveal .smobjimg2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 406px;
+  width               : 538px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-1.5deg); /* IE 9 */
+  -webkit-transform   : rotate(-1.5deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-1.5deg);
+}
+.index .smobjlinkcopy .smobjborder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16.39%;
+  height              : 55.82%;
+  box-sizing          : border-box;
+  width               : 29.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 8.25%;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(242, 125, 50, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.index .smobjlinkcopy .smobjtransptarg {
+  background-color    : rgba(45, 45, 45, 1.0);
+  right               : 0px;
+  top                 : 16.39%;
+  height              : 55.82%;
+  width               : 91.75%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
 }
 .index .smobjdiv {
   background-color    : rgba(255,255,255,0.0);

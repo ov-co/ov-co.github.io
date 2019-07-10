@@ -3,6 +3,10 @@
                           font-family: "ColorTube-Regular";
                           src: url('../fonts/ColorTube-Regular.otf') format("opentype");
                         }
+                        @font-face {
+                          font-family: "Sequel100Wide-45Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
                         
 .smartobjects {
   width               : 100%;
