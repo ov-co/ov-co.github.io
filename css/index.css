@@ -1,18 +1,22 @@
 
 @font-face {
-                          font-family: "ColorTube-Regular";
-                          src: url('../fonts/ColorTube-Regular.otf') format("opentype");
-                        }
-                        @font-face {
                           font-family: "Sequel100Wide-45Wide";
                           src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "VelodromaBasic-Wide";
+                          src: url('../fonts/VelodromaBasic-Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "New-Gulim";
+                          src: url('../fonts/new gulim Font Download.ttf') format("truetype");
                         }
                         
 .index {
   width               : 100%;
   min-width           : 1440px;
   height              : 100vh;
-  min-height          : 10000px;
+  min-height          : 2947px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -37,23 +41,23 @@ div {
 }
 .anima-animate-enter {
   opacity             : 0;
-  transform           : translate(0, 25px);
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
   -o-animation        : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
   animation           : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay  : 1s;
-  animation-delay     : 1s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
 }
 @-webkit-keyframes anima-animate-enter-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -69,7 +73,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -85,7 +89,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -97,160 +101,6 @@ div {
     }
 }
 @keyframes anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.anima-animate-enter1 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay  : 1s;
-  animation-delay     : 1s;
-}
-@-webkit-keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes anima-animate-enter1-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.anima-animate-enter2 {
-  opacity             : 0;
-  transform           : translate(-25px, 0);
-  display             : block;
-  -webkit-animation   : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay  : 0.5s;
-  animation-delay     : 0.5s;
-}
-@-webkit-keyframes anima-animate-enter2-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes anima-animate-enter2-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes anima-animate-enter2-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(-25px, 0);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes anima-animate-enter2-frames {
   0%
    
   {
@@ -268,7 +118,7 @@ div {
 }
 .index .bg {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 42px;
+  top                 : 64px;
   height              : 1755px;
   width               : 1440px;
   position            : absolute;
@@ -280,7 +130,7 @@ div {
 }
 .index .drlinkbg {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1180px;
+  top                 : 1174px;
   height              : 235px;
   width               : 1119px;
   position            : absolute;
@@ -292,7 +142,7 @@ div {
 }
 .index .deconreconlink {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1014px;
+  top                 : 1008px;
   height              : 810px;
   width               : 1276px;
   position            : absolute;
@@ -375,7 +225,7 @@ div {
 }
 .index .smobjlinkbg {
   background-color    : rgba(45, 45, 45, 1.0);
-  top                 : 808px;
+  top                 : 802px;
   height              : 235px;
   width               : 1119px;
   position            : absolute;
@@ -387,7 +237,7 @@ div {
 }
 .index .smobjlink {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 779px;
+  top                 : 773px;
   height              : 301px;
   width               : 1264px;
   position            : absolute;
@@ -504,9 +354,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.index .smobjlinkbg1 {
+.index .taqiyahlinkbg {
   background-color    : rgba(45, 45, 45, 1.0);
-  top                 : 1552px;
+  top                 : 1546px;
   height              : 235px;
   width               : 1119px;
   position            : absolute;
@@ -516,9 +366,9 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjlink1 {
+.index .taqiyahlink {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1483px;
+  top                 : 1477px;
   height              : 421px;
   width               : 1273px;
   position            : absolute;
@@ -529,10 +379,10 @@ div {
   transform           : rotate(0deg);
   transition          : all 0.2s ease-out;
 }
-.index .smobjlink1:hover {
+.index .taqiyahlink:hover {
   transform           : translate(-20px, 0);
 }
-.index .smobjlink1 .smobjbotcontent {
+.index .taqiyahlink .smobjbotcontent {
   background-color    : rgba(255,255,255,0.0);
   right               : 6.44%;
   top                 : 16.39%;
@@ -544,7 +394,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjlink1 .smobjbotcontent .smobjcontent {
+.index .taqiyahlink .smobjbotcontent .smobjcontent {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 7.02%;
@@ -556,7 +406,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjlink1 .smobjbotcontent .smobjimg {
+.index .taqiyahlink .smobjbotcontent .smobjimg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -568,7 +418,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjlink1 .smobjbotcontent .smobjimg .smobjimg1 {
+.index .taqiyahlink .smobjbotcontent .smobjimg .smobjimg1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -580,7 +430,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjlink1 .smobjmidreveal {
+.index .taqiyahlink .smobjmidreveal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -591,9 +441,9 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.0;
+  opacity             : 0.01;
 }
-.index .smobjlink1 .smobjmidreveal .smobjlinkbg2 {
+.index .taqiyahlink .smobjmidreveal .taqlinkbg {
   background-color    : rgba(45, 45, 45, 1.0);
   right               : 11.66%;
   top                 : 16.39%;
@@ -605,7 +455,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjlink1 .smobjmidreveal .smobjimg2 {
+.index .taqiyahlink .smobjmidreveal .smobjimg2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 406px;
@@ -617,7 +467,7 @@ div {
   -webkit-transform   : rotate(-1.5deg); /* Chrome, Safari, Opera */
   transform           : rotate(-1.5deg);
 }
-.index .smobjlink1 .smobjborder {
+.index .taqiyahlink .smobjborder {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16.39%;
   height              : 55.82%;
@@ -628,156 +478,13 @@ div {
   left                : 8.25%;
   border-style        : solid;
   border-width        : 2px;
-  border-color        : rgba(242, 125, 50, 1.0);
+  border-color        : rgba(242, 200, 50, 1.0);
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.index .smobjlink1 .smobjtransptarg {
-  background-color    : rgba(45, 45, 45, 1.0);
-  right               : 0px;
-  top                 : 16.39%;
-  height              : 55.82%;
-  width               : 91.75%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.index .smobjlinkbgcopy {
-  background-color    : rgba(45, 45, 45, 1.0);
-  top                 : 1921px;
-  height              : 235px;
-  width               : 1119px;
-  position            : absolute;
-  margin              : 0;
-  left                : 321px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.index .smobjlinkcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1852px;
-  height              : 421px;
-  width               : 1273px;
-  position            : absolute;
-  margin              : 0;
-  left                : 216px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease-out;
-}
-.index .smobjlinkcopy:hover {
-  transform           : translate(-20px, 0);
-}
-.index .smobjlinkcopy .smobjbotcontent {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 6.44%;
-  top                 : 16.39%;
-  height              : 55.82%;
-  width               : 85.31%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.index .smobjlinkcopy .smobjbotcontent .smobjcontent {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 7.02%;
-  height              : 85.96%;
-  width               : 56.81%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.index .smobjlinkcopy .smobjbotcontent .smobjimg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 34.71%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.index .smobjlinkcopy .smobjbotcontent .smobjimg .smobjimg1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.index .smobjlinkcopy .smobjmidreveal {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 43.13%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.index .smobjlinkcopy .smobjmidreveal .smobjlinkbg2 {
-  background-color    : rgba(45, 45, 45, 1.0);
-  right               : 11.66%;
-  top                 : 16.39%;
-  height              : 55.82%;
-  width               : 69.22%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.index .smobjlinkcopy .smobjmidreveal .smobjimg2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 406px;
-  width               : 538px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  -ms-transform       : rotate(-1.5deg); /* IE 9 */
-  -webkit-transform   : rotate(-1.5deg); /* Chrome, Safari, Opera */
-  transform           : rotate(-1.5deg);
-}
-.index .smobjlinkcopy .smobjborder {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16.39%;
-  height              : 55.82%;
-  box-sizing          : border-box;
-  width               : 29.62%;
-  position            : absolute;
-  margin              : 0;
-  left                : 8.25%;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(242, 125, 50, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.index .smobjlinkcopy .smobjtransptarg {
+.index .taqiyahlink .smobjtransptarg {
   background-color    : rgba(45, 45, 45, 1.0);
   right               : 0px;
   top                 : 16.39%;
@@ -790,62 +497,348 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.index .smobjdiv {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 885px;
-  height              : 3px;
-  width               : 179px;
+.index .dataloguebg {
+  background-color    : rgba(45, 45, 45, 1.0);
+  top                 : 1915px;
+  height              : 235px;
+  width               : 1119px;
   position            : absolute;
   margin              : 0;
-  left                : 56px;
+  left                : 321px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjdivcopy {
+.index .dataloguelink {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1260px;
-  height              : 3px;
-  width               : 179px;
+  top                 : 1878px;
+  height              : 308px;
+  width               : 1213px;
   position            : absolute;
   margin              : 0;
-  left                : 56px;
+  left                : 276px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-out;
+}
+.index .dataloguelink:hover {
+  transform           : translate(-20px, 0);
+}
+.index .dataloguelink .smobjbotcontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11.85%;
+  height              : 76.30%;
+  width               : 89.53%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.71%;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .smobjdivcopy2 {
+.index .dataloguelink .smobjbotcontent .smobjcontent {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1629px;
-  height              : 3px;
-  width               : 179px;
+  right               : 0px;
+  top                 : 7.02%;
+  height              : 85.96%;
+  width               : 56.81%;
   position            : absolute;
   margin              : 0;
-  left                : 56px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.index .me {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 132px;
-  height              : 512px;
-  width               : 389px;
-  position            : absolute;
-  margin              : 0;
-  left                : 868px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.index .me .me1 {
+.index .dataloguelink .smobjbotcontent .smobjimg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 512px;
-  width               : 389px;
+  height              : 100%;
+  width               : 34.71%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .dataloguelink .smobjbotcontent .smobjimg .smobjimg1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .dataloguelink .smobjmidreveal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 37.92%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.index .dataloguelink .smobjmidreveal .smobjlinkbg1 {
+  background-color    : rgba(45, 45, 45, 1.0);
+  right               : 7.61%;
+  top                 : 11.85%;
+  height              : 76.30%;
+  width               : 82.61%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .dataloguelink .smobjmidreveal .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .dataloguelink .smobjborder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11.85%;
+  height              : 76.30%;
+  box-sizing          : border-box;
+  width               : 31.08%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.71%;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(95, 250, 90, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.index .dataloguelink .smobjtransptarg {
+  background-color    : rgba(45, 45, 45, 1.0);
+  right               : 0px;
+  top                 : 11.85%;
+  height              : 76.30%;
+  width               : 96.29%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.index .handbagbg {
+  background-color    : rgba(45, 45, 45, 1.0);
+  top                 : 2298px;
+  height              : 235px;
+  width               : 1119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .handbaglink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2194px;
+  height              : 442px;
+  width               : 1392px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-out;
+}
+.index .handbaglink:hover {
+  transform           : translate(-20px, 0);
+}
+.index .handbaglink .smobjbotcontent {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.89%;
+  top                 : 23.42%;
+  height              : 53.17%;
+  width               : 78.02%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .handbaglink .smobjbotcontent .smobjcontent {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 8.30%;
+  height              : 83.40%;
+  width               : 56.81%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .handbaglink .smobjbotcontent .smobjimg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 34.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .handbaglink .smobjbotcontent .smobjimg .smobjimg1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .handbaglink .smobjmidreveal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 47.49%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.index .handbaglink .smobjmidreveal .handbaglinkbg {
+  background-color    : rgba(45, 45, 45, 1.0);
+  right               : 8.62%;
+  top                 : 23.42%;
+  height              : 53.17%;
+  width               : 57.49%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .handbaglink .smobjmidreveal .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .handbaglink .smobjborder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23.42%;
+  height              : 53.17%;
+  box-sizing          : border-box;
+  width               : 27.08%;
+  position            : absolute;
+  margin              : 0;
+  left                : 16.09%;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(163, 57, 210, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.index .handbaglink .smobjtransptarg {
+  background-color    : rgba(45, 45, 45, 1.0);
+  right               : 0px;
+  top                 : 23.42%;
+  height              : 53.17%;
+  width               : 83.91%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.index .smobjdiv {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 879px;
+  height              : 3px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .ploombdiv {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1254px;
+  height              : 3px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .taqiyahdiv {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1623px;
+  height              : 3px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .dataloguediv {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1985px;
+  height              : 3px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .dataloguedivcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2362px;
+  height              : 3px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -854,10 +847,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 187px;
   height              : 453px;
-  width               : 634px;
+  width               : 457px;
   position            : absolute;
   margin              : 0;
-  left                : 134px;
+  left                : 311px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -879,7 +872,7 @@ div {
   right               : 0px;
   bottom              : -0.44%;
   height              : 94.48%;
-  width               : 70.66%;
+  width               : 98.03%;
   position            : absolute;
   margin              : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -890,7 +883,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 12.80%;
   height              : 37.75%;
-  width               : 93.38%;
+  width               : 91.03%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -900,12 +893,96 @@ div {
 }
 .index .oomungbio2 .oomungbio .bioframe {
   background-color    : rgba(255,255,255,0.0);
-  right               : 20.35%;
   top                 : 0px;
   height              : 38.63%;
-  width               : 46.21%;
+  width               : 64.11%;
   position            : absolute;
   margin              : 0;
+  left                : 7.66%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .contactphotocopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : 512px;
+  width               : 570px;
+  position            : absolute;
+  margin              : 0;
+  left                : 868px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .contactphotocopy .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .contactphotocopy .group2 .me {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 68.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .contactphotocopy .group2 .me .me1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .contactphotocopy .group2 .contactinfo {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 2.28%;
+  top                 : 27.54%;
+  height              : 27.73%;
+  width               : 37.37%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .contactphotocopy .group2 .rectangle2 {
+  background-color    : rgba(78, 78, 78, 1.0);
+  right               : -0.35%;
+  top                 : 0.39%;
+  height              : 99.22%;
+  width               : 32.11%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .contactphotocopy .group2 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 68.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -948,7 +1025,7 @@ div {
 }
 .index .rectangle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 170px;
+  top                 : 164px;
   height              : 2486px;
   width               : 118px;
   position            : absolute;
@@ -957,6 +1034,60 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+}
+.index .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 164px;
+  height              : 2486px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .botbarcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2888px;
+  height              : 60px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .botbarcopy .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.index .botbarcopy .a2512019oomungvarma {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 736px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 23.0px;
+  color               : rgba(107, 107, 107, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.33px;
+  line-height         : 31.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

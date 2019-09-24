@@ -1,18 +1,22 @@
 
 @font-face {
-                          font-family: "ColorTube-Regular";
-                          src: url('../fonts/ColorTube-Regular.otf') format("opentype");
-                        }
-                        @font-face {
                           font-family: "Sequel100Wide-45Wide";
                           src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "VelodromaBasic-Wide";
+                          src: url('../fonts/VelodromaBasic-Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "New-Gulim";
+                          src: url('../fonts/new gulim Font Download.ttf') format("truetype");
                         }
                         
 .smartobjects {
   width               : 100%;
   min-width           : 1440px;
   height              : 100vh;
-  min-height          : 16874px;
+  min-height          : 16713px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -35,20 +39,20 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter15 {
+.anima-animate-enter23 {
   opacity             : 0;
   transform           : translate(25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   -o-animation-delay  : 1.5s;
   animation-delay     : 1.5s;
 }
-@-webkit-keyframes anima-animate-enter15-frames {
+@-webkit-keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -64,7 +68,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter15-frames {
+@-moz-keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -80,7 +84,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter15-frames {
+@-o-keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -96,7 +100,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter15-frames {
+@keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -112,20 +116,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter16 {
+.anima-animate-enter24 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay  : 1s;
   animation-delay     : 1s;
 }
-@-webkit-keyframes anima-animate-enter16-frames {
+@-webkit-keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -141,7 +145,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter16-frames {
+@-moz-keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -157,7 +161,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter16-frames {
+@-o-keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -173,7 +177,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter16-frames {
+@keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -189,20 +193,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter17 {
+.anima-animate-enter25 {
   opacity             : 0;
   transform           : translate(0, -153px);
   display             : block;
-  -webkit-animation   : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay  : 1s;
   animation-delay     : 1s;
 }
-@-webkit-keyframes anima-animate-enter17-frames {
+@-webkit-keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -218,7 +222,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter17-frames {
+@-moz-keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -234,7 +238,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter17-frames {
+@-o-keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -250,7 +254,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter17-frames {
+@keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -266,20 +270,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter18 {
+.anima-animate-enter26 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter18-frames {
+@-webkit-keyframes anima-animate-enter26-frames {
   0%
    
   {
@@ -295,7 +299,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter18-frames {
+@-moz-keyframes anima-animate-enter26-frames {
   0%
    
   {
@@ -311,7 +315,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter18-frames {
+@-o-keyframes anima-animate-enter26-frames {
   0%
    
   {
@@ -327,7 +331,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter18-frames {
+@keyframes anima-animate-enter26-frames {
   0%
    
   {
@@ -343,20 +347,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter19 {
+.anima-animate-enter27 {
   opacity             : 0;
   transform           : translate(0, -25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter27-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter27-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter27-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter27-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter19-frames {
+@-webkit-keyframes anima-animate-enter27-frames {
   0%
    
   {
@@ -372,7 +376,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter19-frames {
+@-moz-keyframes anima-animate-enter27-frames {
   0%
    
   {
@@ -388,7 +392,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter19-frames {
+@-o-keyframes anima-animate-enter27-frames {
   0%
    
   {
@@ -404,7 +408,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter19-frames {
+@keyframes anima-animate-enter27-frames {
   0%
    
   {
@@ -422,24 +426,36 @@ div {
 }
 .smartobjects .herocaption {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 16027px;
-  height              : 918px;
-  width               : 1462px;
+  top                 : 15881px;
+  height              : 763px;
+  width               : 1270px;
   position            : absolute;
   margin              : 0;
-  left                : 211px;
+  left                : 306px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .botbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16648px;
+  height              : 66px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .smartobjects .herotouching {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15281px;
-  height              : 662px;
-  width               : 1155px;
+  top                 : 15261px;
+  height              : 551px;
+  width               : 963px;
   position            : absolute;
   margin              : 0;
-  left                : 131px;
+  left                : 239px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -775,24 +791,24 @@ div {
 }
 .smartobjects .meditationsubs {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14404px;
-  height              : 713px;
-  width               : 419px;
+  top                 : 14294px;
+  height              : 638px;
+  width               : 368px;
   position            : absolute;
   margin              : 0;
-  left                : 194px;
+  left                : 283px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .smartobjects .solution3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12694px;
-  height              : 1600px;
-  width               : 1454px;
+  top                 : 12720px;
+  height              : 1383px;
+  width               : 1256px;
   position            : absolute;
   margin              : 0;
-  left                : -143px;
+  left                : -11px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -811,8 +827,8 @@ div {
 }
 .smartobjects .solution3 .solution3inter .solution3vis {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6.31%;
-  height              : 84.56%;
+  bottom              : 0px;
+  height              : 95.16%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -834,19 +850,19 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.smartobjects .solution2 {
+.smartobjects .solution22 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 11055px;
-  height              : 1417px;
-  width               : 1222px;
+  top                 : 11151px;
+  height              : 1227px;
+  width               : 1211px;
   position            : absolute;
   margin              : 0;
-  left                : -4px;
+  left                : 147px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.smartobjects .solution2 .solution2inter {
+.smartobjects .solution22 .solution2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -858,11 +874,23 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.smartobjects .solution2 .solution2inter .solution2vis {
+.smartobjects .solution22 .solution2 .solution2inter {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 99.92%;
+  height              : 92.99%;
+  width               : 81.26%;
+  position            : absolute;
+  margin              : 0;
+  left                : 7.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99.91%;
+  width               : 99.19%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -870,11 +898,186 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.smartobjects .solution2 .solution2inter .solution2expo {
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13.86%;
+  height              : 53.68%;
+  width               : 44.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.01%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .group2 .group3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
-  width               : 99.92%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .group2 .group3 .group31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80.26%;
+  width               : 78.28%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .path71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12.63%;
+  height              : 55.00%;
+  width               : 48.67%;
+  position            : absolute;
+  margin              : 0;
+  left                : 14.86%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.18%;
+  top                 : 38.33%;
+  height              : 13.42%;
+  width               : 51.13%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .halfway {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 667px;
+  height              : 461px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 691px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .fulpic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 819px;
+  height              : 461px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 452px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -12.81%;
+  height              : 31.93%;
+  width               : 24.49%;
+  position            : absolute;
+  margin              : 0;
+  left                : 18.24%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -14.96%;
+  bottom              : -12.54%;
+  height              : 11.58%;
+  width               : 36.99%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .usersinputtheirve {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -9.56%;
+  height              : 26.32%;
+  width               : 18.75%;
+  position            : absolute;
+  margin              : 0;
+  left                : 20.90%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .u2018responsesu2019fromoth {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -15.06%;
+  bottom              : -12.54%;
+  height              : 10.44%;
+  width               : 35.45%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .u2022staticu2022facilitat {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -11.37%;
+  top                 : 41.58%;
+  height              : 10.44%;
+  width               : 61.48%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2vis .siyapt1img {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -9.22%;
+  top                 : 17.37%;
+  height              : 24.30%;
+  width               : 28.38%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.90%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -883,14 +1086,232 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.smartobjects .solution1 {
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .group21 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 10038px;
-  height              : 963px;
-  width               : 1465px;
+  top                 : 13.85%;
+  height              : 53.64%;
+  width               : 47.91%;
   position            : absolute;
   margin              : 0;
-  left                : -49px;
+  left                : 14.34%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .group21 .speakingmirror2018feb24115025pm000customizedview26095381141pngalpha {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .group21 .speakingmirror2018feb24115025pm000customizedview26095381141pngalpha .speakingmirror2018feb24115025pm000customizedview26095381141pngalpha1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .group21 .group32 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 1.91%;
+  top                 : 0px;
+  height              : 100%;
+  width               : 92.78%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .group21 .group32 .group321 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .path72 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80.19%;
+  width               : 77.82%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .path73 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12.62%;
+  height              : 54.95%;
+  width               : 48.42%;
+  position            : absolute;
+  margin              : 0;
+  left                : 14.75%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.87%;
+  top                 : 38.30%;
+  height              : 13.41%;
+  width               : 50.76%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .meditationsubs1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 667px;
+  height              : 461px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 691px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .meditationsubscopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 819px;
+  height              : 461px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 453px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -12.71%;
+  height              : 31.90%;
+  width               : 24.31%;
+  position            : absolute;
+  margin              : 0;
+  left                : 18.11%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -14.14%;
+  bottom              : -12.45%;
+  height              : 11.57%;
+  width               : 36.72%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .usersinputtheirve1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -10.17%;
+  height              : 26.29%;
+  width               : 18.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 20.85%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .u2018responsesu2019fromoth1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -14.24%;
+  bottom              : -12.80%;
+  height              : 10.43%;
+  width               : 35.20%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .u2022staticu2022facilitat {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -10.68%;
+  top                 : 41.54%;
+  height              : 10.43%;
+  width               : 61.04%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .solution2inter .solution2expo .siyapt1img1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -8.44%;
+  top                 : 17.35%;
+  height              : 24.28%;
+  width               : 28.18%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.smartobjects .solution22 .solution2 .manmirrorback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : 681px;
+  width               : 594px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.smartobjects .solution22 .solution2 .manmirrorfront {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 796px;
+  width               : 697px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.45;
+}
+.smartobjects .solution1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10118px;
+  height              : 775px;
+  width               : 1212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -909,9 +1330,9 @@ div {
 }
 .smartobjects .solution1 .solution1inter .solution1on {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 4.57%;
-  height              : 90.65%;
-  width               : 92.83%;
+  top                 : 1.55%;
+  height              : 93.42%;
+  width               : 92.82%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -922,8 +1343,8 @@ div {
 .smartobjects .solution1 .solution1inter .solution1off {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 97.30%;
-  width               : 99.93%;
+  height              : 100%;
+  width               : 99.92%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -934,7 +1355,7 @@ div {
 }
 .smartobjects .rectangle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 10999px;
+  top                 : 10977px;
   height              : 102px;
   width               : 1440px;
   position            : absolute;
@@ -960,7 +1381,7 @@ div {
 }
 .smartobjects .rectanglecopy3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12707px;
+  top                 : 12624px;
   height              : 102px;
   width               : 1440px;
   position            : absolute;
@@ -1557,8 +1978,8 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 555px;
+  width               : 1005px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1568,12 +1989,12 @@ div {
 }
 .smartobjects .marketarenotstatic2 .marketarenotstatic .smartphonedecline2 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 91.89%;
-  width               : 46.67%;
+  top                 : 45px;
+  height              : 510px;
+  width               : 469px;
   position            : absolute;
   margin              : 0;
+  left                : 536px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1581,8 +2002,8 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic .smartphonedecline2 .smartphonedecline {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 510px;
+  width               : 469px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1593,8 +2014,8 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic .marketstatictext2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 98.74%;
-  width               : 50.65%;
+  height              : 548px;
+  width               : 509px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1605,8 +2026,8 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic .marketstatictext2 .marketstatictext {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 548px;
+  width               : 509px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1616,12 +2037,12 @@ div {
 }
 .smartobjects .marketarenotstatic2 .marketarenotstatic .marketframe2 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0.36%;
-  height              : 91.17%;
-  width               : 47.56%;
+  top                 : 47px;
+  height              : 506px;
+  width               : 478px;
   position            : absolute;
   margin              : 0;
-  left                : 5.97%;
+  left                : 60px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1629,8 +2050,8 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic .marketframe2 .marketframe {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 506px;
+  width               : 478px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2913,24 +3334,24 @@ div {
 }
 .smartobjects .rectangle1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14418px;
-  height              : 556px;
-  width               : 466px;
+  top                 : 14306px;
+  height              : 498px;
+  width               : 410px;
   position            : absolute;
   margin              : 0;
-  left                : 720px;
+  left                : 746px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .smartobjects .usingaiandcompara {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14430px;
-  height              : 691px;
-  width               : 530px;
+  top                 : 14318px;
+  height              : 803px;
+  width               : 466px;
   position            : absolute;
   margin              : 0;
-  left                : 758px;
+  left                : 779px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);

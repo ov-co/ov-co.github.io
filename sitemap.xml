@@ -6,33 +6,38 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://cool-violet-6643.animaapp.io/</loc>
-  <lastmod>2019-07-10</lastmod>
+  <loc>http://muddy-star-43.animaapp.io/</loc>
+  <lastmod>2019-09-24</lastmod>
 </url>
 
 <url>
-  <loc>http://cool-violet-6643.animaapp.io/index</loc>
-  <lastmod>2019-07-10</lastmod>
+  <loc>http://muddy-star-43.animaapp.io/index</loc>
+  <lastmod>2019-09-24</lastmod>
 </url>
 
 <url>
-  <loc>http://cool-violet-6643.animaapp.io/deconrecon</loc>
-  <lastmod>2019-07-10</lastmod>
+  <loc>http://muddy-star-43.animaapp.io/datalogue</loc>
+  <lastmod>2019-09-24</lastmod>
 </url>
 
 <url>
-  <loc>http://cool-violet-6643.animaapp.io/dattakhel</loc>
-  <lastmod>2019-07-10</lastmod>
+  <loc>http://muddy-star-43.animaapp.io/dattakhel</loc>
+  <lastmod>2019-09-24</lastmod>
 </url>
 
 <url>
-  <loc>http://cool-violet-6643.animaapp.io/smartobjects</loc>
-  <lastmod>2019-07-10</lastmod>
+  <loc>http://muddy-star-43.animaapp.io/deconrecon</loc>
+  <lastmod>2019-09-24</lastmod>
 </url>
 
 <url>
-  <loc>http://cool-violet-6643.animaapp.io/datalogue</loc>
-  <lastmod>2019-07-10</lastmod>
+  <loc>http://muddy-star-43.animaapp.io/handbag</loc>
+  <lastmod>2019-09-24</lastmod>
+</url>
+
+<url>
+  <loc>http://muddy-star-43.animaapp.io/smartobjects</loc>
+  <lastmod>2019-09-24</lastmod>
 </url>
 
 </urlset>
