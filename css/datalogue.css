@@ -1,0 +1,2897 @@
+
+@font-face {
+                          font-family: "VelodromaBasic-Wide";
+                          src: url('../fonts/VelodromaBasic-Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "New-Gulim";
+                          src: url('../fonts/new gulim Font Download.ttf') format("truetype");
+                        }
+                        
+.datalogue {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 8142px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter {
+  opacity             : 0;
+  transform           : translate(0, -25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay  : 1s;
+  animation-delay     : 1s;
+}
+@-webkit-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter1 {
+  opacity             : 0;
+  transform           : translate(0, -25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay  : 1s;
+  animation-delay     : 1s;
+}
+@-webkit-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter2 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : anima-animate-enter2-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter2-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter2-frames 0.699999988079s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter2-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay  : 2s;
+  animation-delay     : 2s;
+}
+@-webkit-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter3 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter3-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter4 {
+  opacity             : 0;
+  transform           : translate(0, -25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter4-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.datalogue .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1147px;
+  height              : 361px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .rectangle1 {
+  background-color    : rgba(52, 52, 52, 1.0);
+  top                 : 1471px;
+  height              : 984px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2470px;
+  height              : 1169px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2060px;
+  height              : 562px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2896px;
+  height              : 594px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 387px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.47;
+}
+.datalogue .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3038px;
+  height              : 130px;
+  width               : 1161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .research2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3321px;
+  height              : 530px;
+  width               : 1283px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .research2 .research {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 653px;
+  position            : absolute;
+  margin              : 0;
+  left                : 454px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .research2 .dataminingimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 194px;
+  width               : 357px;
+  position            : absolute;
+  margin              : 0;
+  left                : 327px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .research2 .dataminingimage .dataminingimage1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 357px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .research2 .trump {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 194px;
+  width               : 379px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .research2 .trump .trump1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 379px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .research2 .exposetargetedmisi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : auto;
+  width               : 425px;
+  position            : absolute;
+  margin              : 0;
+  left                : 730px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(103, 103, 103, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.38px;
+  line-height         : 32.0px;
+}
+.datalogue .research2 .preliminaryresearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 430px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(103, 103, 103, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.38px;
+  line-height         : 32.0px;
+}
+.datalogue .research2 .electoralmanipulati {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 159px;
+  height              : auto;
+  width               : 555px;
+  position            : absolute;
+  margin              : 0;
+  left                : 730px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(103, 103, 103, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.47px;
+  line-height         : 35.0px;
+}
+.datalogue .conceptdev {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2495px;
+  height              : 774px;
+  width               : 1192px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .our30persongroup {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -0.26%;
+  height              : 28.29%;
+  width               : 74.66%;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.38%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 27.26%;
+  height              : 25.84%;
+  width               : 93.96%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .crosslamination2018feb16103942pm000customizedview31902197507pngalpha {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 17.41%;
+  top                 : 0px;
+  height              : 100%;
+  width               : 37.05%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .crosslamination2018feb16103942pm000customizedview31902197507pngalpha .crosslamination2018feb16103942pm000customizedview31902197507pngalpha1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .dataminingimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 32.14%;
+  position            : absolute;
+  margin              : 0;
+  left                : 23.57%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .dataminingimage .dataminingimage1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .trump {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 31.61%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .trump .trump1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 25.62%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .imgs .bitmap .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .desc {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 2.85%;
+  top                 : 16.15%;
+  height              : 49.61%;
+  width               : 89.51%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .desc .tangiblesculpt {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 10.22%;
+  top                 : 0px;
+  height              : 34.64%;
+  width               : 27.74%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .conceptdev .desc .electoralmanip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.26%;
+  height              : 34.38%;
+  width               : 25.87%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .conceptdev .desc .onlinebehav {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.60%;
+  height              : 32.55%;
+  width               : 32.05%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.90%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .conceptdev .desc .nomadicfuture {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 1.82%;
+  height              : 35.94%;
+  width               : 25.87%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .conceptdev .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 27.52%;
+  height              : 25.32%;
+  box-sizing          : border-box;
+  width               : 93.62%;
+  position            : absolute;
+  margin              : 0;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .conceptdev .conceptdev1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10.21%;
+  width               : 50.67%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .a3partprocess {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1518px;
+  height              : 788px;
+  width               : 1271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .thedaaloue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 689px;
+  height              : 64px;
+  width               : 623px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .phuonganh {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 854px;
+  height              : 567px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 789px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .phuonganh .expose {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 567px;
+  box-sizing          : border-box;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 165, 78, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .phuonganh .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -52px;
+  height              : 722px;
+  width               : 1082px;
+  position            : absolute;
+  margin              : 0;
+  left                : -320px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.datalogue .phuonganh .expose1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 567px;
+  box-sizing          : border-box;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 165, 78, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectrequirements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 847px;
+  height              : 564px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .biotologuediv {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 596px;
+  height              : 2px;
+  width               : 466px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 165px;
+  height              : 415px;
+  width               : 1251px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .projectdetails2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 182px;
+  height              : 233px;
+  width               : 1050px;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .projectdetails1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 269px;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .wdppl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 159px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 463px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .wdppl .wdppl1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 159px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .claireodile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 329px;
+  width               : 429px;
+  position            : absolute;
+  margin              : 0;
+  left                : 824px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .claireodile .claireodile1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 329px;
+  width               : 429px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .wdlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 279px;
+  height              : 106px;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .projectdetails .wdlogo .wdlogo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 106px;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .a2018 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 51px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1086px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .topbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -18px;
+  height              : 152px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .topbar .topbarframe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 69px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .topbar .businesscard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 152px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4294px;
+  height              : 2488px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .thiscreatedaframe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5849px;
+  height              : auto;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  left                : 562px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(194, 194, 194, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.38px;
+  line-height         : 32.0px;
+}
+.datalogue .aswellasproviding {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6096px;
+  height              : auto;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  left                : 572px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(194, 194, 194, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.38px;
+  line-height         : 32.0px;
+}
+.datalogue .bannoncambridgenix {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3912px;
+  height              : 185px;
+  width               : 850px;
+  position            : absolute;
+  margin              : 0;
+  left                : 323px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .bannoncambridgenix .bannonnix {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 180px;
+  width               : 850px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .bannoncambridgenix .bannonnix .bannonnix1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 180px;
+  width               : 850px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .bannoncambridgenix .calogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 225px;
+  position            : absolute;
+  margin              : 0;
+  left                : 309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .bannoncambridgenix .calogo .calogo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 225px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .cambridgeanalytica {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4166px;
+  height              : auto;
+  width               : 1123px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(103, 103, 103, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.38px;
+  line-height         : 32.0px;
+}
+.datalogue .stratasysexploited {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4751px;
+  height              : auto;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 159px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.72px;
+  line-height         : 26.0px;
+}
+.datalogue .stratasyscomparedt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4751px;
+  height              : auto;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 565px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.72px;
+  line-height         : 26.0px;
+}
+.datalogue .stratasyswouldthen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4751px;
+  height              : auto;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 975px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.72px;
+  line-height         : 26.0px;
+}
+.datalogue .adsanim {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4365px;
+  height              : 320px;
+  width               : 639px;
+  position            : absolute;
+  margin              : 0;
+  left                : 961px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .adsanim .ads {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .adsanim .ads .tingg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 319px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .adsanim .ads .rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 320px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .adsanim .ads .ad1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 318px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 306px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .adsanim .ads .ad3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 318px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 306px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .adsanim .ads .ad2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 318px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 306px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .clicksanim {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4364px;
+  height              : 423px;
+  width               : 830px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .clicksanim .clicks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .clicksanim .clicks .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 320px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .clicksanim .clicks .lkebuton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 10.64%;
+  height              : 61.94%;
+  width               : 65.42%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .clicksanim .clicks .lkebuton .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 90.46%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.datalogue .clicksanim .clicks .lkebuton .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 108px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .clicksanim .clicks .sahrebutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.18%;
+  top                 : 27.19%;
+  height              : 23.40%;
+  width               : 27.35%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .clicksanim .clicks .sahrebutton .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .clicksanim .clicks .postbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.06%;
+  top                 : 27.42%;
+  height              : 23.40%;
+  width               : 27.35%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .clicksanim .clicks .postbutton .bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .clicksanim .clicks .bitmap3 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 3.78%;
+  height              : 67.85%;
+  width               : 22.29%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.13%;
+  -ms-transform       : rotate(11deg); /* IE 9 */
+  -webkit-transform   : rotate(11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(11deg);
+}
+.datalogue .clicksanim .clicks .bitmap3 .bitmap31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4365px;
+  height              : 319px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 553px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .rectanglecopy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 319px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .sidebars {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 3.13%;
+  height              : 92.79%;
+  width               : 9.28%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.30%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .sidebars .e {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16.22%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .sidebars .e .e1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.04%;
+  height              : 97.92%;
+  width               : 96.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.61%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .sidebars .e .e2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21.88%;
+  height              : 56.25%;
+  width               : 90.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.84%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(248, 248, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.38px;
+  line-height         : 27.0px;
+}
+.datalogue .alganim .sidebars .d {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 20.95%;
+  height              : 16.22%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .sidebars .d .d1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.04%;
+  height              : 97.92%;
+  width               : 96.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.61%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .sidebars .d .d2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21.88%;
+  height              : 56.25%;
+  width               : 90.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.84%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(248, 248, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.38px;
+  line-height         : 27.0px;
+}
+.datalogue .alganim .sidebars .c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41.89%;
+  height              : 16.22%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .sidebars .c .c1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.04%;
+  height              : 97.92%;
+  width               : 96.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.61%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .sidebars .c .c2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 18.75%;
+  height              : 56.25%;
+  width               : 90.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.84%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(248, 248, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.38px;
+  line-height         : 27.0px;
+}
+.datalogue .alganim .sidebars .b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20.95%;
+  height              : 16.22%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .sidebars .b .b1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.04%;
+  height              : 97.92%;
+  width               : 96.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.61%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .sidebars .b .b2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21.88%;
+  height              : 56.25%;
+  width               : 90.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.84%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(248, 248, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.38px;
+  line-height         : 27.0px;
+}
+.datalogue .alganim .sidebars .a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16.22%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .sidebars .a .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.04%;
+  height              : 97.92%;
+  width               : 96.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.61%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .sidebars .a .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21.88%;
+  height              : 56.25%;
+  width               : 90.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.84%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(248, 248, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.38px;
+  line-height         : 27.0px;
+}
+.datalogue .alganim .resultados {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 4.70%;
+  height              : 89.34%;
+  width               : 14.37%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .resultados .red {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47.72%;
+  width               : 97.92%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.04%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .resultados .blue {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 47.72%;
+  width               : 97.92%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.04%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .cetnerovals {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.70%;
+  height              : 89.66%;
+  width               : 11.08%;
+  position            : absolute;
+  margin              : 0;
+  left                : 42.51%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .cetnerovals .a11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13.64%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .cetnerovals .a11 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .cetnerovals .a11 .a12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17.95%;
+  height              : 64.10%;
+  width               : 37.84%;
+  position            : absolute;
+  margin              : 0;
+  left                : 31.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(162, 162, 162, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.24px;
+  line-height         : 25.0px;
+}
+.datalogue .alganim .cetnerovals .a21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21.33%;
+  height              : 13.64%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .cetnerovals .a21 .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .cetnerovals .a21 .a22 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.38%;
+  height              : 64.10%;
+  width               : 37.84%;
+  position            : absolute;
+  margin              : 0;
+  left                : 31.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(162, 162, 162, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.24px;
+  line-height         : 25.0px;
+}
+.datalogue .alganim .cetnerovals .a3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42.66%;
+  height              : 13.64%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .cetnerovals .a3 .ovalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .cetnerovals .a3 .a31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17.95%;
+  height              : 64.10%;
+  width               : 37.84%;
+  position            : absolute;
+  margin              : 0;
+  left                : 31.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(162, 162, 162, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.24px;
+  line-height         : 25.0px;
+}
+.datalogue .alganim .cetnerovals .a4 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.33%;
+  height              : 13.64%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .cetnerovals .a4 .ovalcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .cetnerovals .a4 .a41 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.38%;
+  height              : 64.10%;
+  width               : 37.84%;
+  position            : absolute;
+  margin              : 0;
+  left                : 31.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(162, 162, 162, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.24px;
+  line-height         : 25.0px;
+}
+.datalogue .alganim .cetnerovals .a5 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 13.64%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .alganim .cetnerovals .a5 .ovalcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .cetnerovals .a5 .a51 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.38%;
+  height              : 64.10%;
+  width               : 37.84%;
+  position            : absolute;
+  margin              : 0;
+  left                : 31.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(162, 162, 162, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.24px;
+  line-height         : 25.0px;
+}
+.datalogue .alganim .round1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 10.03%;
+  height              : 78.68%;
+  width               : 71.26%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.68%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round1 .round1l {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 39.50%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .alganim .round1 .round1l .line7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24.30%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round1 .round1l .line71 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 98.80%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round1 .round1l .line72 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 24.30%;
+  height              : 26.69%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round1 .round1r {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 47.01%;
+  width               : 37.39%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .alganim .round1 .round1r .line7copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19.49%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round1 .round1r .line7copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38.98%;
+  height              : 13.56%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round1 .round1r .line7copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 41.53%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 7.21%;
+  height              : 81.50%;
+  width               : 70.96%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.68%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round2 .round2l {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 39.66%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .alganim .round2 .round2l .line73 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23.46%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round2 .round2l .line74 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 26.92%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round2 .round2l .line75 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 26.92%;
+  height              : 25.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round2 .round2r {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 8.08%;
+  height              : 63.08%;
+  width               : 37.55%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .alganim .round2 .round2r .line7copy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26.22%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round2 .round2r .line7copy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15.24%;
+  height              : 43.90%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round2 .round2r .line7copy31 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 70.73%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round3 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.05%;
+  height              : 55.49%;
+  width               : 70.96%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.68%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round3 .round3l {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 74.58%;
+  width               : 39.66%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .alganim .round3 .round3l .line76 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6.82%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round3 .round3l .line77 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0.76%;
+  height              : 48.48%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round3 .round3l .line78 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 50.00%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .alganim .round3 .round3r {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 97.74%;
+  width               : 37.55%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.datalogue .alganim .rectanglecopy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 319px;
+  box-sizing          : border-box;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(151, 151, 151, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group3 {
+  background-color    : rgba(149, 46, 254, 0.64);
+  top                 : 5034px;
+  height              : 532px;
+  width               : 338px;
+  position            : absolute;
+  margin              : 0;
+  left                : 917px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.85;
+}
+.datalogue .group3 .rectanglecopy6 {
+  background-color    : rgba(149, 46, 254, 0.64);
+  top                 : 0px;
+  height              : 532px;
+  box-sizing          : border-box;
+  width               : 338px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(151, 151, 151, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group3 .img4972 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -62px;
+  height              : 812px;
+  width               : 1086px;
+  position            : absolute;
+  margin              : 0;
+  left                : -354px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.datalogue .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5823px;
+  height              : 532px;
+  width               : 338px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5823px;
+  height              : 532px;
+  width               : 338px;
+  position            : absolute;
+  margin              : 0;
+  left                : 959px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6122px;
+  height              : 15px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 898px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .line4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5859px;
+  height              : 15px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 442px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .line4copy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5697px;
+  height              : 148px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5602px;
+  height              : 96px;
+  width               : 777px;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .aspartofa2perso {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5603px;
+  height              : 113px;
+  width               : 923px;
+  position            : absolute;
+  margin              : 0;
+  left                : 270px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .weworkedcloselywi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6403px;
+  height              : 357px;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : 145px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .theoutcomeswereco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6403px;
+  height              : 357px;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : 965px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .dsc0064 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5036px;
+  height              : 528px;
+  width               : 767px;
+  position            : absolute;
+  margin              : 0;
+  left                : 151px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.79;
+}
+.datalogue .dsc0064 .dsc00641 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 528px;
+  width               : 767px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.79;
+}
+.datalogue .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6740px;
+  height              : 848px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .a3x7a0592edit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 848px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .a3x7a0592edit .a3x7a0592edit1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 848px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .a3x7a1047 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 327px;
+  width               : 337px;
+  position            : absolute;
+  margin              : 0;
+  left                : 123px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .a3x7a1047 .a3x7a10471 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 327px;
+  width               : 337px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .a3x7a0335edit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 96px;
+  height              : 329px;
+  width               : 306px;
+  position            : absolute;
+  margin              : 0;
+  left                : 585px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .a3x7a0335edit .a3x7a0335edit1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 329px;
+  width               : 306px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .imageasset {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 96px;
+  height              : 329px;
+  width               : 337px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1005px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .imageasset .imageasset1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 329px;
+  width               : 337px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .thedatalogueaggreg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 495px;
+  height              : 276px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .ateachstationgue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 495px;
+  height              : 301px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 592px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group6 .aftertheguestcomp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 495px;
+  height              : 311px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1012px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7535px;
+  height              : 539px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 523px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 .rectangle11 {
+  background-color    : rgba(246, 246, 246, 1.0);
+  top                 : 228px;
+  height              : 250px;
+  width               : 1155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 147px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 262px;
+  width               : 853px;
+  position            : absolute;
+  margin              : 0;
+  left                : 458px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 .group7 .rectanglecopy7 {
+  background-color    : rgba(246, 246, 246, 1.0);
+  top                 : 0px;
+  height              : 137px;
+  width               : 841px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 .group7 .rectanglecopy71 {
+  background-color    : rgba(220, 220, 220, 1.0);
+  top                 : 60px;
+  height              : 63px;
+  width               : 722px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 .group7 .conclusion {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : auto;
+  width               : 814px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "VelodromaBasic-Wide", Helvetica, Arial, serif;
+  font-size           : 76.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.15px;
+  line-height         : 35.0px;
+}
+.datalogue .group5 .ourteamworkwaspu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 262px;
+  height              : auto;
+  width               : 1012px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.38px;
+  line-height         : 35.0px;
+}
+.datalogue .group5 .a3x7a0548edit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 250px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .group5 .a3x7a0548edit .a3x7a0548edit1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 250px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.datalogue .a2512019oomungvarma {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8104px;
+  height              : auto;
+  width               : 736px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.33px;
+  line-height         : 16.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
