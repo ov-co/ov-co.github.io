@@ -7,6 +7,26 @@
                           font-family: "New-Gulim";
                           src: url('../fonts/new gulim Font Download.ttf') format("truetype");
                         }
+                        @font-face {
+                          font-family: "Sequel100Wide-55Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 55 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-76Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 76 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-75Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 75 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-45Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-46Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 46 Wide.otf') format("opentype");
+                        }
                         
 .dattakhel {
   width               : 100%;
@@ -35,20 +55,20 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter10 {
+.anima-animate-enter23 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter10-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter10-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter10-frames 0.699999988079s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter10-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter23-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter23-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter23-frames 0.699999988079s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter23-frames 0.699999988079s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay  : 2s;
   animation-delay     : 2s;
 }
-@-webkit-keyframes anima-animate-enter10-frames {
+@-webkit-keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -64,7 +84,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter10-frames {
+@-moz-keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -80,7 +100,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter10-frames {
+@-o-keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -96,7 +116,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter10-frames {
+@keyframes anima-animate-enter23-frames {
   0%
    
   {
@@ -112,20 +132,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter11 {
+.anima-animate-enter24 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter11-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter24-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter24-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter24-frames 0.699999988079s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter24-frames 0.699999988079s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay  : 2s;
   animation-delay     : 2s;
 }
-@-webkit-keyframes anima-animate-enter11-frames {
+@-webkit-keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -141,7 +161,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter11-frames {
+@-moz-keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -157,7 +177,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter11-frames {
+@-o-keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -173,7 +193,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter11-frames {
+@keyframes anima-animate-enter24-frames {
   0%
    
   {
@@ -189,20 +209,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter12 {
+.anima-animate-enter25 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter25-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter12-frames {
+@-webkit-keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -218,7 +238,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter12-frames {
+@-moz-keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -234,7 +254,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter12-frames {
+@-o-keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -250,7 +270,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter12-frames {
+@keyframes anima-animate-enter25-frames {
   0%
    
   {
@@ -266,20 +286,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter13 {
+.anima-animate-enter26 {
   opacity             : 0;
   transform           : translate(0, -25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter26-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter13-frames {
+@-webkit-keyframes anima-animate-enter26-frames {
   0%
    
   {
@@ -295,7 +315,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter13-frames {
+@-moz-keyframes anima-animate-enter26-frames {
   0%
    
   {
@@ -311,7 +331,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter13-frames {
+@-o-keyframes anima-animate-enter26-frames {
   0%
    
   {
@@ -327,7 +347,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter13-frames {
+@keyframes anima-animate-enter26-frames {
   0%
    
   {

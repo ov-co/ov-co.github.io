@@ -7,6 +7,26 @@
                           font-family: "New-Gulim";
                           src: url('../fonts/new gulim Font Download.ttf') format("truetype");
                         }
+                        @font-face {
+                          font-family: "Sequel100Wide-55Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 55 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-76Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 76 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-75Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 75 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-45Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-46Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 46 Wide.otf') format("opentype");
+                        }
                         
 .smartobjects {
   width               : 100%;
@@ -35,20 +55,20 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter5 {
+.anima-animate-enter10 {
   opacity             : 0;
   transform           : translate(25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter5-frames 0.5s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter5-frames 0.5s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter5-frames 0.5s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter5-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   -o-animation-delay  : 1.5s;
   animation-delay     : 1.5s;
 }
-@-webkit-keyframes anima-animate-enter5-frames {
+@-webkit-keyframes anima-animate-enter10-frames {
   0%
    
   {
@@ -64,7 +84,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter5-frames {
+@-moz-keyframes anima-animate-enter10-frames {
   0%
    
   {
@@ -80,7 +100,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter5-frames {
+@-o-keyframes anima-animate-enter10-frames {
   0%
    
   {
@@ -96,7 +116,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter5-frames {
+@keyframes anima-animate-enter10-frames {
   0%
    
   {
@@ -112,20 +132,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter6 {
+.anima-animate-enter11 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter6-frames 0.5s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter6-frames 0.5s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter6-frames 0.5s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter6-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay  : 1s;
   animation-delay     : 1s;
 }
-@-webkit-keyframes anima-animate-enter6-frames {
+@-webkit-keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -141,7 +161,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter6-frames {
+@-moz-keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -157,7 +177,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter6-frames {
+@-o-keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -173,7 +193,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter6-frames {
+@keyframes anima-animate-enter11-frames {
   0%
    
   {
@@ -189,20 +209,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter7 {
+.anima-animate-enter12 {
   opacity             : 0;
   transform           : translate(0, -153px);
   display             : block;
-  -webkit-animation   : anima-animate-enter7-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter7-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter7-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter7-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter12-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay  : 1s;
   animation-delay     : 1s;
 }
-@-webkit-keyframes anima-animate-enter7-frames {
+@-webkit-keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -218,7 +238,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter7-frames {
+@-moz-keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -234,7 +254,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter7-frames {
+@-o-keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -250,7 +270,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter7-frames {
+@keyframes anima-animate-enter12-frames {
   0%
    
   {
@@ -266,20 +286,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter8 {
+.anima-animate-enter13 {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter8-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter13-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter8-frames {
+@-webkit-keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -295,7 +315,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter8-frames {
+@-moz-keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -311,7 +331,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter8-frames {
+@-o-keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -327,7 +347,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter8-frames {
+@keyframes anima-animate-enter13-frames {
   0%
    
   {
@@ -343,20 +363,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter9 {
+.anima-animate-enter14 {
   opacity             : 0;
   transform           : translate(0, -25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter9-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
   animation-delay     : 0.5s;
 }
-@-webkit-keyframes anima-animate-enter9-frames {
+@-webkit-keyframes anima-animate-enter14-frames {
   0%
    
   {
@@ -372,7 +392,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter9-frames {
+@-moz-keyframes anima-animate-enter14-frames {
   0%
    
   {
@@ -388,7 +408,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter9-frames {
+@-o-keyframes anima-animate-enter14-frames {
   0%
    
   {
@@ -404,7 +424,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter9-frames {
+@keyframes anima-animate-enter14-frames {
   0%
    
   {
@@ -1961,12 +1981,12 @@ div {
 }
 .smartobjects .marketarenotstatic2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3446px;
-  height              : 555px;
-  width               : 1005px;
+  top                 : 3395px;
+  height              : 606px;
+  width               : 1056px;
   position            : absolute;
   margin              : 0;
-  left                : 182px;
+  left                : 131px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1974,8 +1994,8 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 555px;
-  width               : 1005px;
+  height              : 606px;
+  width               : 1056px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1985,12 +2005,12 @@ div {
 }
 .smartobjects .marketarenotstatic2 .marketarenotstatic .smartphonedecline2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
+  top                 : 96px;
   height              : 510px;
   width               : 469px;
   position            : absolute;
   margin              : 0;
-  left                : 536px;
+  left                : 587px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -2010,7 +2030,7 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic .marketstatictext2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 548px;
+  height              : 603px;
   width               : 509px;
   position            : absolute;
   margin              : 0;
@@ -2022,7 +2042,7 @@ div {
 .smartobjects .marketarenotstatic2 .marketarenotstatic .marketstatictext2 .marketstatictext {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 548px;
+  height              : 603px;
   width               : 509px;
   position            : absolute;
   margin              : 0;
@@ -2033,12 +2053,12 @@ div {
 }
 .smartobjects .marketarenotstatic2 .marketarenotstatic .marketframe2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
+  top                 : 98px;
   height              : 506px;
   width               : 478px;
   position            : absolute;
   margin              : 0;
-  left                : 60px;
+  left                : 111px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -2069,12 +2089,12 @@ div {
 }
 .smartobjects .proliferationelement2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1037px;
+  top                 : 1001px;
   height              : 1113px;
   width               : 1259px;
   position            : absolute;
   margin              : 0;
-  left                : 22px;
+  left                : -14px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -2093,8 +2113,8 @@ div {
 }
 .smartobjects .proliferationelement2 .proliferationelement .manlookingatphone2 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 5.75%;
+  right               : -2.86%;
+  top                 : 8.98%;
   height              : 39.44%;
   width               : 52.26%;
   position            : absolute;
@@ -2119,7 +2139,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 60.92%;
-  width               : 46.39%;
+  width               : 52.10%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2141,12 +2161,12 @@ div {
 }
 .smartobjects .proliferationelement2 .proliferationelement .prolifframe2 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
+  bottom              : -3.23%;
   height              : 94.25%;
   width               : 28.67%;
   position            : absolute;
   margin              : 0;
-  left                : 19.06%;
+  left                : 21.92%;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);

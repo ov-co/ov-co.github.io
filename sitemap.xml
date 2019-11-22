@@ -6,38 +6,43 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://muddy-star-43.animaapp.io/</loc>
-  <lastmod>2019-09-25</lastmod>
+  <loc>http://dry-paper-7336.animaapp.io/</loc>
+  <lastmod>2019-11-22</lastmod>
 </url>
 
 <url>
-  <loc>http://muddy-star-43.animaapp.io/datalogue</loc>
-  <lastmod>2019-09-25</lastmod>
+  <loc>http://dry-paper-7336.animaapp.io/index</loc>
+  <lastmod>2019-11-22</lastmod>
 </url>
 
 <url>
-  <loc>http://muddy-star-43.animaapp.io/smartobjects</loc>
-  <lastmod>2019-09-25</lastmod>
+  <loc>http://dry-paper-7336.animaapp.io/datalogue</loc>
+  <lastmod>2019-11-22</lastmod>
 </url>
 
 <url>
-  <loc>http://muddy-star-43.animaapp.io/dattakhel</loc>
-  <lastmod>2019-09-25</lastmod>
+  <loc>http://dry-paper-7336.animaapp.io/handbag</loc>
+  <lastmod>2019-11-22</lastmod>
 </url>
 
 <url>
-  <loc>http://muddy-star-43.animaapp.io/deconrecon</loc>
-  <lastmod>2019-09-25</lastmod>
+  <loc>http://dry-paper-7336.animaapp.io/smartobjects</loc>
+  <lastmod>2019-11-22</lastmod>
 </url>
 
 <url>
-  <loc>http://muddy-star-43.animaapp.io/index</loc>
-  <lastmod>2019-09-25</lastmod>
+  <loc>http://dry-paper-7336.animaapp.io/deconrecon</loc>
+  <lastmod>2019-11-22</lastmod>
 </url>
 
 <url>
-  <loc>http://muddy-star-43.animaapp.io/handbag</loc>
-  <lastmod>2019-09-25</lastmod>
+  <loc>http://dry-paper-7336.animaapp.io/seasonschange</loc>
+  <lastmod>2019-11-22</lastmod>
+</url>
+
+<url>
+  <loc>http://dry-paper-7336.animaapp.io/dattakhel</loc>
+  <lastmod>2019-11-22</lastmod>
 </url>
 
 </urlset>

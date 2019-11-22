@@ -7,6 +7,26 @@
                           font-family: "New-Gulim";
                           src: url('../fonts/new gulim Font Download.ttf') format("truetype");
                         }
+                        @font-face {
+                          font-family: "Sequel100Wide-55Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 55 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-76Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 76 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-75Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 75 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-45Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-46Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 46 Wide.otf') format("opentype");
+                        }
                         
 .datalogue {
   width               : 100%;
@@ -483,12 +503,12 @@ div {
 }
 .datalogue .rectangle3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3038px;
-  height              : 130px;
-  width               : 1161px;
+  top                 : 3047px;
+  height              : 112px;
+  width               : 1091px;
   position            : absolute;
   margin              : 0;
-  left                : 42px;
+  left                : 112px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -622,7 +642,7 @@ div {
 .datalogue .conceptdev {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2495px;
-  height              : 774px;
+  height              : 785px;
   width               : 1192px;
   position            : absolute;
   margin              : 0;
@@ -633,12 +653,12 @@ div {
 }
 .datalogue .conceptdev .our30persongroup {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : -0.26%;
-  height              : 28.29%;
+  bottom              : -0.25%;
+  height              : 27.90%;
   width               : 74.66%;
   position            : absolute;
   margin              : 0;
-  left                : 6.38%;
+  left                : 3.78%;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -646,8 +666,8 @@ div {
 .datalogue .conceptdev .imgs {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  top                 : 27.26%;
-  height              : 25.84%;
+  top                 : 26.88%;
+  height              : 25.48%;
   width               : 93.96%;
   position            : absolute;
   margin              : 0;
@@ -754,8 +774,8 @@ div {
 .datalogue .conceptdev .desc {
   background-color    : rgba(255,255,255,0.0);
   right               : 2.85%;
-  top                 : 16.15%;
-  height              : 49.61%;
+  top                 : 15.92%;
+  height              : 48.92%;
   width               : 89.51%;
   position            : absolute;
   margin              : 0;
@@ -818,8 +838,8 @@ div {
 .datalogue .conceptdev .rectangle6 {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  top                 : 27.52%;
-  height              : 25.32%;
+  top                 : 27.13%;
+  height              : 24.97%;
   box-sizing          : border-box;
   width               : 93.62%;
   position            : absolute;
@@ -834,7 +854,7 @@ div {
 .datalogue .conceptdev .conceptdev1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10.21%;
+  height              : 10.06%;
   width               : 50.67%;
   position            : absolute;
   margin              : 0;
@@ -847,10 +867,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1518px;
   height              : 788px;
-  width               : 1271px;
+  width               : 1318px;
   position            : absolute;
   margin              : 0;
-  left                : 93px;
+  left                : 46px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -938,12 +958,12 @@ div {
 }
 .datalogue .biotologuediv {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 596px;
-  height              : 2px;
-  width               : 466px;
+  top                 : 621px;
+  height              : 3px;
+  width               : 269px;
   position            : absolute;
   margin              : 0;
-  left                : 216px;
+  left                : 413px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);

@@ -7,12 +7,32 @@
                           font-family: "New-Gulim";
                           src: url('../fonts/new gulim Font Download.ttf') format("truetype");
                         }
+                        @font-face {
+                          font-family: "Sequel100Wide-55Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 55 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-76Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 76 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-75Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 75 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-45Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 45 Wide.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Sequel100Wide-46Wide";
+                          src: url('../fonts/OGJ Type Design - Sequel 100 Wide 46 Wide.otf') format("opentype");
+                        }
                         
 .deconrecon {
   width               : 100%;
   min-width           : 1440px;
   height              : 100vh;
-  min-height          : 9247px;
+  min-height          : 14389px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -35,91 +55,14 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter14 {
+.anima-animate-enter15 {
   opacity             : 0;
   transform           : translate(0, -256px);
   display             : block;
-  -webkit-animation   : anima-animate-enter14-frames 0.800000011921s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter14-frames 0.800000011921s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter14-frames 0.800000011921s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter14-frames 0.800000011921s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay  : 0.5s;
-  animation-delay     : 0.5s;
-}
-@-webkit-keyframes anima-animate-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, -256px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes anima-animate-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, -256px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes anima-animate-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, -256px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes anima-animate-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, -256px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.anima-animate-enter15 {
-  opacity             : 0;
-  transform           : translate(25px, 0);
-  display             : block;
-  -webkit-animation   : anima-animate-enter15-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter15-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter15-frames 0.699999988079s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter15-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -webkit-animation   : anima-animate-enter15-frames 0.800000011921s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter15-frames 0.800000011921s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter15-frames 0.800000011921s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter15-frames 0.800000011921s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   -o-animation-delay  : 0.5s;
@@ -130,7 +73,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, -256px);
     }
   
     
@@ -146,7 +89,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, -256px);
     }
   
     
@@ -162,7 +105,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, -256px);
     }
   
     
@@ -178,7 +121,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(25px, 0);
+  transform: translate(0, -256px);
     }
   
     
@@ -191,7 +134,7 @@ div {
 }
 .anima-animate-enter16 {
   opacity             : 0;
-  transform           : translate(0, 25px);
+  transform           : translate(25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter16-frames 0.699999988079s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter16-frames 0.699999988079s ease-in-out 1 normal forwards;
@@ -207,7 +150,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(25px, 0);
     }
   
     
@@ -223,7 +166,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(25px, 0);
     }
   
     
@@ -239,7 +182,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(25px, 0);
     }
   
     
@@ -255,7 +198,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
+  transform: translate(25px, 0);
     }
   
     
@@ -345,23 +288,23 @@ div {
 }
 .anima-animate-enter18 {
   opacity             : 0;
-  transform           : translate(-25px, 0);
+  transform           : translate(0, 25px);
   display             : block;
   -webkit-animation   : anima-animate-enter18-frames 0.699999988079s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter18-frames 0.699999988079s ease-in-out 1 normal forwards;
   -o-animation        : anima-animate-enter18-frames 0.699999988079s ease-in-out 1 normal forwards;
   animation           : anima-animate-enter18-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay  : 2s;
-  animation-delay     : 2s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
 }
 @-webkit-keyframes anima-animate-enter18-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -377,7 +320,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -393,7 +336,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -409,7 +352,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(-25px, 0);
+  transform: translate(0, 25px);
     }
   
     
@@ -428,10 +371,10 @@ div {
   -moz-animation      : anima-animate-enter19-frames 0.699999988079s ease-in-out 1 normal forwards;
   -o-animation        : anima-animate-enter19-frames 0.699999988079s ease-in-out 1 normal forwards;
   animation           : anima-animate-enter19-frames 0.699999988079s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-  -o-animation-delay  : 1.5s;
-  animation-delay     : 1.5s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay  : 2s;
+  animation-delay     : 2s;
 }
 @-webkit-keyframes anima-animate-enter19-frames {
   0%
@@ -501,14 +444,14 @@ div {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay  : 0.5s;
-  animation-delay     : 0.5s;
+  -webkit-animation   : anima-animate-enter20-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter20-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter20-frames 0.699999988079s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter20-frames 0.699999988079s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay  : 1.5s;
+  animation-delay     : 1.5s;
 }
 @-webkit-keyframes anima-animate-enter20-frames {
   0%
@@ -576,7 +519,7 @@ div {
 }
 .anima-animate-enter21 {
   opacity             : 0;
-  transform           : translate(0, -25px);
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter21-frames 1s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter21-frames 1s ease-in-out 1 normal forwards;
@@ -592,7 +535,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, -25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -608,7 +551,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, -25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -624,7 +567,7 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, -25px);
+  transform: translate(-25px, 0);
     }
   
     
@@ -636,6 +579,83 @@ div {
     }
 }
 @keyframes anima-animate-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter22 {
+  opacity             : 0;
+  transform           : translate(0, -25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, -25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter22-frames {
   0%
    
   {
@@ -653,7 +673,7 @@ div {
 }
 .deconrecon .conclusonstatements {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7848px;
+  top                 : 9498px;
   height              : 1335px;
   width               : 979px;
   position            : absolute;
@@ -713,7 +733,7 @@ div {
 }
 .deconrecon .botbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 9181px;
+  top                 : 10831px;
   height              : 66px;
   width               : 1440px;
   position            : absolute;
@@ -725,7 +745,7 @@ div {
 }
 .deconrecon .billboard {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7350px;
+  top                 : 9000px;
   height              : 1191px;
   width               : 1494px;
   position            : absolute;
@@ -737,7 +757,7 @@ div {
 }
 .deconrecon .endingconvo {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6859px;
+  top                 : 8509px;
   height              : 698px;
   width               : 1365px;
   position            : absolute;
@@ -749,7 +769,7 @@ div {
 }
 .deconrecon .iphones {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 5766px;
+  top                 : 7416px;
   height              : 1099px;
   width               : 1683px;
   position            : absolute;
@@ -954,36 +974,36 @@ div {
 }
 .deconrecon .iphones .iphonemockup22 .iphonemockuop2 .topnotif {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 23.78%;
-  height              : 19.15%;
-  width               : 17.23%;
+  top                 : 190px;
+  height              : 153px;
+  width               : 153px;
   position            : absolute;
   margin              : 0;
-  left                : 19.59%;
+  left                : 174px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .deconrecon .iphones .iphonemockup22 .iphonemockuop2 .slidebymail1 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 42.55%;
-  height              : 7.88%;
-  width               : 33.90%;
+  top                 : 396px;
+  height              : 63px;
+  width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 20.61%;
+  left                : 183px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .deconrecon .iphones .iphonemockup22 .iphonemockuop2 .slideby2 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 22.90%;
-  height              : 19.65%;
-  width               : 22.30%;
+  top                 : 459px;
+  height              : 157px;
+  width               : 198px;
   position            : absolute;
   margin              : 0;
-  left                : 17.57%;
+  left                : 156px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -991,12 +1011,12 @@ div {
 }
 .deconrecon .iphones .iphonemockup22 .iphonemockuop2 .slideby32 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 36.05%;
-  height              : 9.14%;
-  width               : 17.23%;
+  top                 : 438px;
+  height              : 73px;
+  width               : 153px;
   position            : absolute;
   margin              : 0;
-  left                : 17.34%;
+  left                : 154px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1064,17 +1084,17 @@ div {
 }
 .deconrecon .iphones .iphonemockup22 .iphonemockuop2 .scanner2 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 28.41%;
-  height              : 4.63%;
-  width               : 4.17%;
+  top                 : 535px;
+  height              : 37px;
+  width               : 37px;
   position            : absolute;
   margin              : 0;
-  left                : 38.63%;
+  left                : 343px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 {
+.deconrecon .iphones .iphonemockup331 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 799px;
@@ -1086,7 +1106,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1098,7 +1118,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .screenshot20190917at100015pm {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .screenshot20190917at100015pm {
   background-color    : rgba(255,255,255,0.0);
   top                 : 155px;
   height              : 482px;
@@ -1110,7 +1130,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .scrollwindow {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .scrollwindow {
   background-color    : rgba(255,255,255,0.0);
   right               : 28.27%;
   bottom              : 20.15%;
@@ -1122,7 +1142,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .scrollwindow .scrollwindow1 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .scrollwindow .scrollwindow1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1134,7 +1154,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .lownotif2 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .lownotif2 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 30.41%;
   height              : 14.02%;
@@ -1146,7 +1166,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .lownotif2 .lownotifcopy {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .lownotif2 .lownotifcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 112px;
@@ -1159,11 +1179,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .lownotif2 .lownotif {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .lownotif2 .lownotif {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0.45%;
-  height              : 99.11%;
-  width               : 100%;
+  top                 : 1px;
+  height              : 111px;
+  width               : 144px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1171,7 +1191,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .midnotif2 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .midnotif2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40.68%;
   height              : 14.14%;
@@ -1183,7 +1203,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .midnotif2 .midnotifcopy {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .midnotif2 .midnotifcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 112px;
@@ -1196,11 +1216,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .midnotif2 .midnotif {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .midnotif2 .midnotif {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 88.50%;
-  width               : 100%;
+  height              : 100px;
+  width               : 122px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1208,7 +1228,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .topnotifcopy2 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .topnotifcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25.66%;
   height              : 15.14%;
@@ -1220,7 +1240,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .topnotifcopy2 .topnotifcopy21 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .topnotifcopy2 .topnotifcopy21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 9px;
   height              : 112px;
@@ -1233,11 +1253,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.01;
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .topnotifcopy2 .topnotifcopy {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .topnotifcopy2 .topnotifcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 90.08%;
-  width               : 100%;
+  height              : 109px;
+  width               : 136px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1245,7 +1265,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .combinedshape {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   right               : 16.55%;
   top                 : 0px;
@@ -1257,7 +1277,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .timepoint {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .timepoint {
   background-color    : rgba(255,255,255,0.0);
   right               : 36.60%;
   bottom              : 27.16%;
@@ -1269,7 +1289,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .timepoint .timepoint1 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .timepoint .timepoint1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1281,7 +1301,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .iphonemockuopcopy2 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .iphonemockuopcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 797px;
@@ -1293,7 +1313,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockup33 .iphonemockuop3 .scanner2 {
+.deconrecon .iphones .iphonemockup331 .iphonemockuop3 .scanner2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 290px;
   height              : 37px;
@@ -1380,7 +1400,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.4;
 }
-.deconrecon .iphones .iphonemockuptext2 .iphonemockuptext .rectangle1 {
+.deconrecon .iphones .iphonemockuptext2 .iphonemockuptext .rectangle2 {
   background-color    : rgba(210, 210, 210, 1.0);
   right               : 18.69%;
   bottom              : 35.00%;
@@ -1477,7 +1497,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .iphones .iphonemockuptext2 .iphonemockuptext .group3copy .rectangle2 {
+.deconrecon .iphones .iphonemockuptext2 .iphonemockuptext .group3copy .rectangle21 {
   background-color    : rgba(239, 239, 239, 1.0);
   top                 : 0px;
   height              : 100%;
@@ -1559,7 +1579,7 @@ div {
 }
 .deconrecon .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 5780px;
+  top                 : 8403px;
   height              : 763px;
   width               : 596px;
   position            : absolute;
@@ -1571,7 +1591,7 @@ div {
 }
 .deconrecon .ploombdesc {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 5160px;
+  top                 : 6810px;
   height              : 523px;
   width               : 533px;
   position            : absolute;
@@ -1583,7 +1603,7 @@ div {
 }
 .deconrecon .ploomb {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4570px;
+  top                 : 6220px;
   height              : 1080px;
   width               : 1192px;
   position            : absolute;
@@ -1617,7 +1637,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .ploomb .group2 .f1 {
+.deconrecon .ploomb .group2 .f11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2.87%;
   height              : 52.50%;
@@ -1628,9 +1648,21 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.01;
+  opacity             : 0.0;
 }
-.deconrecon .ploomb .group2 .f1 .f11 {
+.deconrecon .ploomb .group2 .f11 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.16%;
+  height              : 48.15%;
+  width               : 46.10%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.95%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb .group2 .f11 .f111 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
   height              : 528px;
@@ -1641,18 +1673,6 @@ div {
   -ms-transform       : rotate(-3deg); /* IE 9 */
   -webkit-transform   : rotate(-3deg); /* Chrome, Safari, Opera */
   transform           : rotate(-3deg);
-}
-.deconrecon .ploomb .group2 .f1 .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.00%;
-  height              : 75.13%;
-  width               : 44.94%;
-  position            : absolute;
-  margin              : 0;
-  left                : 27.27%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .deconrecon .ploomb .group2 .cnxn {
   background-color    : rgba(255,255,255,0.0);
@@ -1717,7 +1737,7 @@ div {
 }
 .deconrecon .a3goals2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4006px;
+  top                 : 5656px;
   height              : 594px;
   width               : 962px;
   position            : absolute;
@@ -1729,7 +1749,7 @@ div {
 }
 .deconrecon .khannareframe {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3358px;
+  top                 : 5008px;
   height              : 627px;
   width               : 1048px;
   position            : absolute;
@@ -1765,36 +1785,108 @@ div {
 }
 .deconrecon .juhani {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2970px;
+  top                 : 4620px;
   height              : 344px;
-  width               : 1037px;
+  width               : 1066px;
   position            : absolute;
   margin              : 0;
-  left                : 220px;
+  left                : 176px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+.deconrecon .drawings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2833px;
+  height              : 864px;
+  width               : 741px;
+  position            : absolute;
+  margin              : 0;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .drawings .drawings1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 864px;
+  width               : 741px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3003px;
+  height              : 498px;
+  width               : 693px;
+  position            : absolute;
+  margin              : 0;
+  left                : 540px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .group8 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 498px;
+  width               : 693px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .group8 .rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 498px;
+  width               : 693px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .group8 .canwelocateemotio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 566px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Sequel100Wide-55Wide", Helvetica, Arial, serif;
+  font-size           : 56.0px;
+  color               : rgba(97, 97, 97, 1.0);
+  text-align          : right;
+  letter-spacing      : 2.35px;
+  line-height         : 72.0px;
+}
+.deconrecon .group8 .canwelocateemotio .span1 {
+  
+}
+.deconrecon .group8 .canwelocateemotio .span2 {
+  
+}
 .deconrecon .canwelocate {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1809px;
+  top                 : 3459px;
   height              : 1090px;
   width               : 1088px;
   position            : absolute;
   margin              : 0;
-  left                : 227px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.deconrecon .canwelocate .canwelocateoverall {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
-  height              : 157px;
-  width               : 948px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 236px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1806,43 +1898,55 @@ div {
   width               : 859px;
   position            : absolute;
   margin              : 0;
-  left                : 231px;
+  left                : 229px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .deconrecon .deliashouldbeundercwl {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2603px;
-  height              : 326px;
-  width               : 1091px;
+  top                 : 4205px;
+  height              : 378px;
+  width               : 1086px;
   position            : absolute;
   margin              : 0;
-  left                : 172px;
+  left                : 162px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .deconrecon .firstfindings {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1062px;
+  top                 : 2143px;
   height              : 294px;
   width               : 639px;
   position            : absolute;
   margin              : 0;
-  left                : 551px;
+  left                : 536px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .deconrecon .canwearablesbeused {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 690px;
-  height              : 1171px;
+  top                 : 1708px;
+  height              : 1152px;
   width               : 1151px;
   position            : absolute;
   margin              : 0;
-  left                : 126px;
+  left                : 111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .canwearablesbeused .line14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 174px;
+  height              : 843px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 614px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1850,9 +1954,9 @@ div {
 .deconrecon .canwearablesbeused .cwbu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1171px;
+  height              : 1152px;
   width               : 1151px;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -1873,9 +1977,9 @@ div {
 }
 .deconrecon .canwearablesbeused .cwbu .group {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 13.41%;
+  right               : 0.35%;
+  top                 : 2.08%;
+  height              : 22.31%;
   width               : 64.38%;
   position            : absolute;
   margin              : 0;
@@ -1897,6 +2001,219 @@ div {
 }
 .deconrecon .canwearablesbeused .cwbu .group .cwbufirst {
   background-color    : rgba(255,255,255,0.0);
+  right               : -0.27%;
+  top                 : 0.78%;
+  height              : 61.09%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .secondfindings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2438px;
+  height              : 462px;
+  width               : 1100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .aysebio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1217px;
+  height              : 395px;
+  width               : 542px;
+  position            : absolute;
+  margin              : 0;
+  left                : 794px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .photoofayse {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1219px;
+  height              : 346px;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .projectdetails {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1197px;
+  height              : 248px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 561px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .caption {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 728px;
+  height              : 58px;
+  width               : 658px;
+  position            : absolute;
+  margin              : 0;
+  left                : 199px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .caption .conecptualstpkg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58.62%;
+  width               : 74.92%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .caption .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 46.55%;
+  width               : 35.26%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.24;
+}
+.deconrecon .titel {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 563px;
+  height              : 176px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploombwearableslev {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 808px;
+  height              : auto;
+  width               : 761px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Sequel100Wide-76Wide", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.8px;
+  line-height         : 21.0px;
+}
+.deconrecon .ploombwearableslev .span1 {
+  
+}
+.deconrecon .ploombwearableslev .span2 {
+  font-family         : "Sequel100Wide-55Wide", Helvetica, Arial, serif;
+}
+.deconrecon .ploombwearableslev .span3 {
+  
+}
+.deconrecon .ploombwearableslev .span4 {
+  font-family         : "Sequel100Wide-55Wide", Helvetica, Arial, serif;
+}
+.deconrecon .ploombwearableslev .span5 {
+  
+}
+.deconrecon .ploombwearableslev .span6 {
+  font-family         : "Sequel100Wide-55Wide", Helvetica, Arial, serif;
+}
+.deconrecon .ploombwearableslev .span7 {
+  font-family         : "Sequel100Wide-75Wide", Helvetica, Arial, serif;
+}
+.deconrecon .ploombwearableslev .span8 {
+  font-family         : "Sequel100Wide-55Wide", Helvetica, Arial, serif;
+}
+.deconrecon .definition2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 977px;
+  height              : 170px;
+  width               : 507px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .definition2 .definition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.2;
+}
+.deconrecon .definition2 .definition .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 85.29%;
+  width               : 16.96%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.51;
+}
+.deconrecon .definition2 .definition .group5 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 37.21%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .definition2 .definition .group5 .bitmap .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
   width               : 100%;
@@ -1907,50 +2224,507 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .secondfindings {
+.deconrecon .definition2 .definition .group5 .bitmap2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1388px;
-  height              : 329px;
-  width               : 861px;
+  right               : 0px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 62.79%;
   position            : absolute;
   margin              : 0;
-  left                : 341px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .aysebio {
+.deconrecon .definition2 .definition .group5 .bitmap2 .bitmap21 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 131px;
-  height              : 411px;
-  width               : 539px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 718px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .photoofayse {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 170px;
-  height              : 374px;
-  width               : 248px;
+.deconrecon .definition2 .definition .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  right               : 0px;
+  top                 : 14.12%;
+  height              : 50.00%;
+  width               : 87.18%;
   position            : absolute;
   margin              : 0;
-  left                : 400px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.56;
+}
+.deconrecon .definition2 .definition .a1apointedweight {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 1.78%;
+  top                 : 17.65%;
+  height              : 102px;
+  width               : 84.22%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Sequel100Wide-45Wide", Helvetica, Arial, serif;
+  font-size           : 7.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.76px;
+  line-height         : 11.0px;
+}
+.deconrecon .definition2 .definition .a1apointedweight .span1 {
+  
+}
+.deconrecon .definition2 .definition .a1apointedweight .span2 {
+  font-family         : "Sequel100Wide-46Wide", Helvetica, Arial, serif;
+}
+.deconrecon .definition2 .definition .a1apointedweight .span3 {
+  font-family         : "Sequel100Wide-76Wide", Helvetica, Arial, serif;
+}
+.deconrecon .definition2 .definition .a1apointedweight .span4 {
+  font-family         : "Sequel100Wide-46Wide", Helvetica, Arial, serif;
+}
+.deconrecon .definition2 .definition .a1apointedweight .span5 {
+  
+}
+.deconrecon .definition2 .definition .a1apointedweight .span6 {
+  font-family         : "Sequel100Wide-46Wide", Helvetica, Arial, serif;
+}
+.deconrecon .definition2 .definition .a1apointedweight .span7 {
+  font-family         : "Sequel100Wide-76Wide", Helvetica, Arial, serif;
+}
+.deconrecon .definition2 .definition .a1apointedweight .span8 {
+  font-family         : "Sequel100Wide-46Wide", Helvetica, Arial, serif;
+}
+.deconrecon .definition2 .definition .path16copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22.35%;
+  width               : 2.96%;
+  position            : absolute;
+  margin              : 0;
+  left                : 9.86%;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.deconrecon .projectdetails {
+.deconrecon .f1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 168px;
-  height              : 269px;
-  width               : 314px;
+  top                 : 87px;
+  height              : 567px;
+  width               : 770px;
   position            : absolute;
   margin              : 0;
-  left                : 56px;
+  left                : -87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .f1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 173px;
+  height              : 272px;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : 207px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .f1 .f11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 528px;
+  width               : 743px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(-3deg); /* IE 9 */
+  -webkit-transform   : rotate(-3deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-3deg);
+}
+.deconrecon .iphonemockup33 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -11px;
+  height              : 798px;
+  width               : 888px;
+  position            : absolute;
+  margin              : 0;
+  left                : 721px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .screenshot20190917at100015pm {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 34.23%;
+  top                 : 19.30%;
+  height              : 60.03%;
+  width               : 30.63%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .screenshot20190917at100015pm .screenshot20190917at100015pm1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .scrollwindow {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 20.18%;
+  height              : 6.89%;
+  width               : 31.53%;
+  position            : absolute;
+  margin              : 0;
+  left                : 34.23%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .scrollwindow .scrollwindow1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .lownotif2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 30.45%;
+  height              : 14.04%;
+  width               : 16.22%;
+  position            : absolute;
+  margin              : 0;
+  left                : 21.06%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .lownotif2 .lownotifcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 112px;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .lownotif2 .lownotif {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.45%;
+  height              : 99.11%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .midnotif2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.60%;
+  height              : 14.16%;
+  width               : 13.74%;
+  position            : absolute;
+  margin              : 0;
+  left                : 21.06%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .midnotif2 .midnotifcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 112px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .midnotif2 .midnotif {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88.50%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .topnotifcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25.56%;
+  height              : 15.16%;
+  width               : 15.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 21.06%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .topnotifcopy2 .topnotifcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 112px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .topnotifcopy2 .topnotifcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90.08%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 16.55%;
+  top                 : 8.52%;
+  height              : 70.43%;
+  width               : 65.32%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 32.32%;
+  top                 : 17.17%;
+  height              : 64.41%;
+  width               : 34.57%;
+  position            : absolute;
+  margin              : 0;
+  border-radius       : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .timepoint {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 36.60%;
+  bottom              : 27.19%;
+  height              : 1.13%;
+  width               : 2.03%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .timepoint .timepoint1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .iphonemockuopcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 797px;
+  width               : 888px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.deconrecon .iphonemockup33 .iphonemockuop3 .scanner2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 289px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 343px;
+  -ms-transform       : rotate(100deg); /* IE 9 */
+  -webkit-transform   : rotate(100deg); /* Chrome, Safari, Opera */
+  transform           : rotate(100deg);
+}
+.deconrecon .myrole {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 728px;
+  height              : 217px;
+  width               : 372px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1005px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 616px;
+  width               : 1040px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 .group2 .manrendercopy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 12.31%;
+  top                 : 0px;
+  height              : 100%;
+  width               : 52.79%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 .group2 .manrendercopy .manrendercopy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 .group2 .cnxn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 143px;
+  height              : 460px;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 635px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.01;
+}
+.deconrecon .ploomb1 .group2 .renderofploomb1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 429px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 .group2 .renderofploomb3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 429px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 .group2 .renderofploomb4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 429px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.deconrecon .ploomb1 .group2 .renderofploomb2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 429px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1958,11 +2732,11 @@ div {
 .deconrecon .a2018 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 42px;
-  height              : 51px;
+  height              : 50px;
   width               : 80px;
   position            : absolute;
   margin              : 0;
-  left                : 1086px;
+  left                : 1325px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
